@@ -1,0 +1,23 @@
+{
+  "name": "express-gateway-testing",
+  "version": "1.0.0",
+  "description": "trying out basic express gateway with a nextjs app",
+  "homepage": "https://github.com/join2nk/express-gateway-testing#readme",
+  "bugs": {
+    "url": "https://github.com/join2nk/express-gateway-testing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/join2nk/express-gateway-testing.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+   "dev":"concurrently \"cd express-gateway && npm run dev\" \"cd nextjs-app && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
